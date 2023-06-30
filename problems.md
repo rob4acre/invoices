@@ -5,7 +5,7 @@
 Our company has sent 400 invoices over the last few months. A company pays several invoices at the same time, without specifying which invoices.
 
 Write a Python program to help solve the problem. 
-1. The program should read the invoices directly from this repository using the url:
+1. The program should read the invoices directly from this repository using the url: https://github.com/rob4acre/problem_data/blob/8220bea41d6b574d5120eaf65a47821b3267c7bf/invoices.csv
 2. The program should accept 2 input arguments. The total amount of the paid invoices and the name of the company
 3. The program shall find the corresponding invoices from the company which add up to the given total
 4. The list of matching invoices shall be output as a JSON formatted text file, with the amounts expressed as floats
