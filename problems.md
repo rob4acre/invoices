@@ -16,7 +16,7 @@ Write a Python program to help solve the problem.
 
 You are developing software for a company that controls and monitors satellites. Your company has been tasked with planning the coverage of a set of satellites over a linear region of the Earth's surface. The region is divided into a certain number of discrete sections (N), where each section can be covered by a satellite.
 
-Each satellite has a limited coverage range, defined as an integer (K), and can cover K sections on either side of its current position. Satellites can be moved to any section, but each move takes time and resources, so the goal is to minimize the number of satellites necessary to cover all N sections.
+Each satellite has a limited coverage range, defined as an integer (K), and can cover K sections on either side of its current position. Satellites can be moved to any section, but each move takes time and resources, so the goal is to minimize the number of satellites necessary to cover all N sections. 
 
 You are given an array of integers, where each integer represents the number of sections that a specific satellite can cover.
 
@@ -35,9 +35,9 @@ Output:
 
  Examples:
 ```python
-assert min_satellites([1, 2, 3], 5) == 2
-assert min_satellites([2, 2], 10) == -1
-assert min_satellites([1, 2, 3, 4, 5], 20) == 4
+assert min_satellites([1, 2, 3], 10) == 2
+assert min_satellites([2, 2], 12) == -1
+assert min_satellites([1, 2, 3, 4, 5], 25) == 3
 ```
 
  
